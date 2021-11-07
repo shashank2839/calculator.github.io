@@ -18,11 +18,13 @@
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* in buttons class all 4 columns are defined using grid and border to each is given*/
 
 }
 .buttons > div {
     border-top: 1px solid #999;
     border-right: 1px solid #999;
+    /*border given to avoid any overlapping*/
 }
 .button {
     border: 0.5px solid #999;
@@ -39,4 +41,5 @@
     background-color: #323330;
     color: white;
     transition: 0.5s ease-in-out;
+    /*hover function used to make the button look different when hovered and transition used for animation effect*/
 }
